@@ -63,4 +63,11 @@ This project implements a secure chat system in C++ that allows users to registe
    ```bash
    ./client
 
+## Testing
+
+- Functional testing has been done for registration, login, and encrypted chat.
+- Network analysis (e.g., using Wireshark) confirms that all messages are encrypted during registration, login, and chat.
+
+Please pull a request if you face any issues.
+
 
