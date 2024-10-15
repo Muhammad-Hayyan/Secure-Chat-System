@@ -38,7 +38,8 @@ This project implements a secure chat system in C++ that allows users to registe
 
 - `client.cpp`: Client-side code.
 - `server.cpp`: Server-side code.
-- `creds.txt`: File for storing usernames, hashed passwords, salts, and email addresses.
+- `creds.txt`: An encrypted File with root permissions for storing usernames, hashed passwords, salts, and email addresses.
+- `log.txt`: A file which is used to track the login and registration of users.
 - `README.md`: Project documentation.
 
 ## Dependencies
@@ -51,3 +52,15 @@ This project implements a secure chat system in C++ that allows users to registe
 1. **Clone the repository**:
    ```bash
    git clone https://github.com/YourUsername/SecureChatSystem.git
+2. **Compile the client and server**:
+   ```bash
+   g++ client.cpp -o client -lssl -lcrypto
+   g++ server.cpp -o server -lssl -lcrypto
+3. **Run the server**:
+   ```bash
+   ./server
+4. **Run the client**:
+   ```bash
+   ./client
+
+
