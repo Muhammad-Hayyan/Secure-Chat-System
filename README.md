@@ -33,6 +33,8 @@ This project implements a secure chat system in C++ that allows users to registe
 - **SHA-256 Hashing**: Passwords are stored as secure hashes with unique salts.
 - **AES-128 Encryption**: Messages between the client and server are encrypted.
 - **Diffie-Hellman Key Exchange**: Ensures that encryption keys are securely exchanged without being exposed.
+- **Log File**: A log file so that server can monitor any unusual activities.
+- **Regex Pattern for Password**: A regex pattern for passwords and email to avoid weak passwords.
 
 ## File Structure
 
@@ -68,6 +70,6 @@ This project implements a secure chat system in C++ that allows users to registe
 - Functional testing has been done for registration, login, and encrypted chat.
 - Network analysis (e.g., using Wireshark) confirms that all messages are encrypted during registration, login, and chat.
 
-Please pull a request if you face any issues.
+**Please mention if you face any issues.**
 
 
